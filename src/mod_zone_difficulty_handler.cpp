@@ -612,8 +612,8 @@ void ZoneDifficulty::GiveMythicmodeItem(Map* map, uint32 type)
         Player* player = i->GetSource();
         player->AddItem(69999, 6);
 
-        uint32 random = urand(0, 1000);
-        if(random < 500) {
+        uint32 random = urand(0, 100);
+        if(random < 50) {
             return ;
         }
 
@@ -622,7 +622,8 @@ void ZoneDifficulty::GiveMythicmodeItem(Map* map, uint32 type)
         if(size <= 0) {
             return ;
         }
-        uint32 Entry = rewards[random % size].Entry;
+        uint32 roll = urand(0, 1000);
+        uint32 Entry = rewards[roll % size].Entry;
         if(Entry) {
             ItemTemplate const* proto = sObjectMgr->GetItemTemplate(Entry);
             if(player->CanUseItem(proto) != EQUIP_ERR_OK){
