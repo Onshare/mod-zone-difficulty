@@ -49,7 +49,7 @@ ModZoneDifficulty.MeleeBuff.OnlyBosses = 0
 #        Default:     0 - Disabled
 #                     1 - Enabled
 
-ModZoneDifficulty.Mythicmode.Enable = 0
+ModZoneDifficulty.Mythicmode.Enable = 1
 
 #
 #    ModZoneDifficulty.Mythicmode.HpModifier
@@ -58,7 +58,7 @@ ModZoneDifficulty.Mythicmode.Enable = 0
 #        Default:     2.0 - 200% HP
 #
 
-ModZoneDifficulty.Mythicmode.HpModifier = 2.0
+ModZoneDifficulty.Mythicmode.HpModifier = 12.168
 
 #
 #    ModZoneDifficulty.Mythicmode.InNormalDungeons
