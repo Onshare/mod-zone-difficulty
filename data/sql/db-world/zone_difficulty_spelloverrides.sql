@@ -15,13 +15,9 @@ INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `
 (47753, 0, 1, 1, 'Divine Aegis - Skip nerf.'),
 (18562, 0, 1, 1, 'Swiftmend - Skip nerf.'),
 (25516, 0, 1, 1, 'AQ20 Andorov Healing - Skip nerf.'),
-<<<<<<< HEAD
-(36240, 0, 1, 1, 'Gruul Cave In - Skip buff.');
-=======
 (36240, 0, 1, 1, 'Gruul Cave In - Skip buff.'),
 (34435, 0, 1, 1, 'Magtheridon - Warder - Rain of Fire Skip buff.'),
 (31850, 0, 1, 1, 'Ardent Defender - Absorb - Skip nerf'),
 (31851, 0, 1, 1, 'Ardent Defender - Absorb - Skip nerf'),
 (31852, 0, 1, 1, 'Ardent Defender - Absorb - Skip nerf'),
 (66235, 0, 1, 1, 'Ardent Defender - Heal - Skip nerf');
->>>>>>> azeroth-base
