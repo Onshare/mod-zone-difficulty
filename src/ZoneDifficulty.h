@@ -105,12 +105,12 @@ uint32 const ITEMTYPE_WEAPONS = 6; //武器
 
 uint32 const TARGET_NONE = 0;
 uint32 const TARGET_SELF = 1;
-uint32 const TARGET_VICTIM = 2;                      // current target
+uint32 const TARGET_VICTIM = 2;                      // 当前目标
 uint32 const TARGET_HOSTILE_AGGRO_FROM_TOP = 3;      // count TargetArg highest aggro from top within TargetArg2 distance
 uint32 const TARGET_HOSTILE_AGGRO_FROM_BOTTOM = 4;   // count TargetArg lowest aggro from bottom within TargetArg2 distance
 uint32 const TARGET_HOSTILE_RANDOM = 5;              // 随机一个目标
 uint32 const TARGET_HOSTILE_RANDOM_NOT_TOP = 6;      // 除开仇恨最高的随机一个目标
-uint32 const TARGET_PLAYER_DISTANCE = 18;            // 随机一个目标
+uint32 const TARGET_PLAYER_DISTANCE = 18;            // 范围随机一个目标
 
 const std::string REWARD_MAIL_SUBJECT = "克罗米给你的奖励";
 const std::string REWARD_MAIL_BODY = "希望你能喜欢你的礼物";

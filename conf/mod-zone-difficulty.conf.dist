@@ -58,7 +58,7 @@ ModZoneDifficulty.Mythicmode.Enable = 1
 #        Default:     2.0 - 200% HP
 #
 
-ModZoneDifficulty.Mythicmode.HpModifier = 10.8
+ModZoneDifficulty.Mythicmode.HpModifier = 11.3
 
 #
 #    ModZoneDifficulty.Mythicmode.InNormalDungeons

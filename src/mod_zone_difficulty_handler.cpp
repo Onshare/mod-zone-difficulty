@@ -610,7 +610,7 @@ void ZoneDifficulty::GiveMythicmodeItem(Map* map, uint32 type)
     for (Map::PlayerList::const_iterator i = PlayerList.begin(); i != PlayerList.end(); ++i)
     {
         Player* player = i->GetSource();
-        player->AddItem(69999, 6);
+        player->AddItem(69999, 4);
 
         uint32 random = urand(0, 100);
         if(random < 50) {
