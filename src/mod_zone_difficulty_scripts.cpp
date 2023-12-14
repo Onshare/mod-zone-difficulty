@@ -507,7 +507,7 @@ public:
 
         uint32 entry = unit->GetEntry();
         //没有该生物的AI模型
-        if (sZoneDifficulty->MythicmodeAI.find(entry) == sZoneDifficulty->MythicmodeAI.end())
+        if (sZoneDifficulty->MythicmodeAI.find(222000) == sZoneDifficulty->MythicmodeAI.end())
         {
             //LOG_INFO("module", "MOD-ZONE-DIFFICULTY: No HarmodeAI found for creature with entry {}", entry);
             return;
@@ -518,7 +518,7 @@ public:
 
         uint32 i = 0;
         //执行法术AI
-        for (ZoneDifficultyHAI& data : sZoneDifficulty->MythicmodeAI[entry])
+        for (ZoneDifficultyHAI& data : sZoneDifficulty->MythicmodeAI[222000])
         {
             if (data.Chance == 100 || data.Chance >= urand(1, 100))
             {

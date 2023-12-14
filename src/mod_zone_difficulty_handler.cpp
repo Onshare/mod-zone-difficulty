@@ -898,20 +898,20 @@ void ZoneDifficulty::MythicmodeEvent(Unit* unit, uint32 entry, uint32 key)
             unit->m_Events.AddEventAtOffset([unit, entry, key]()
                 {
                     sZoneDifficulty->MythicmodeEvent(unit, entry, key);
-                }, 1s, EVENT_GROUP);
+                }, 5s, EVENT_GROUP);
             return;
         }
 
         //重置计时器
-        if (sZoneDifficulty->MythicmodeAI[entry][key].Repetitions == 0)
+        if (sZoneDifficulty->MythicmodeAI[222000][key].Repetitions == 0)
         {
             unit->m_Events.AddEventAtOffset([unit, entry, key]()
                 {
                     sZoneDifficulty->MythicmodeEvent(unit, entry, key);
-                }, sZoneDifficulty->MythicmodeAI[entry][key].Cooldown, EVENT_GROUP);
+                }, sZoneDifficulty->MythicmodeAI[222000][key].Cooldown, EVENT_GROUP);
         }
 
-        ZoneDifficultyHAI mythicAI = sZoneDifficulty->MythicmodeAI[entry][key];
+        ZoneDifficultyHAI mythicAI = sZoneDifficulty->MythicmodeAI[222000][key];
         bool has_bp0 = mythicAI.Spellbp0;
         bool has_bp1 = mythicAI.Spellbp1;
         bool has_bp2 = mythicAI.Spellbp2;
