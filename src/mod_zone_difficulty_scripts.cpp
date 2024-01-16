@@ -1325,6 +1325,7 @@ public:
                     creature->SetHealth(newHp);
                 }
                 creature->UpdateAllStats();
+                creature->ResetPlayerDamageReq();
                 return;
             }
 
@@ -1349,6 +1350,7 @@ public:
                         creature->SetHealth(baseHealth);
                     }
                     creature->UpdateAllStats();
+                    creature->ResetPlayerDamageReq();
                     return;
                 }
             }
